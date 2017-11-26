@@ -13,10 +13,12 @@ body {
     line-height: 24px;
 }
 
+a{
+	text-decoration: none
+}
 
 a:focus{
-	outline-color:#fdfdfd;
-	text-decoration: none
+	outline-color:black;
 }
 
 /* Header */
@@ -207,7 +209,13 @@ h3{
 	width: 100%;
     min-height: 25vh;
     background: url(images/awards.jpg) no-repeat center / cover fixed;
+	vertical-align:baseline;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	-webkit-filter: contrast(85%) brightness(50%) saturate(80%) sepia(25%) grayscale(25%);
+	background-attachment: fixed;
 	filter: contrast(85%) brightness(50%) saturate(80%) sepia(25%) grayscale(25%);
 }
 
@@ -267,7 +275,7 @@ ul {
 	color:white;
 	font-size:1.5em;
 	text-align:center;
-	vertical-align:baseline;
+	vertical-align:text-bottom;
 	padding: 20px 5px 5px 5px;
 }
 
