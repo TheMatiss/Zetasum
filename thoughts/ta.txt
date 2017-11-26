@@ -1,0 +1,12 @@
+#1 Lista klientów, w momencie klikniêcia na na wybrane logo zmienia siê tekst co o nas myœl¹ itd.
+Szare loga, przy hoverze wyœwietla siê kolorowe logo, przy aktualnie klikniêtym logo tak samo.
+#2 Jakaœ ³adna stopka, ale z zrobionym formularzem (Albo stopka i formularz osobno)
+#3 Przewijane t³o na danym divie, patrz noeemi.github.io/tajam
+#4 Na start wrzuciæ zdjêcia na t³o z 100vh, w jasnych barwach
+#5 div z crew
+#6 przyciski learn more?
+#7 zmienne grafiki na ekranie startowym?
+#8 ogarn¹æ jakieœ ozdobniki, w kolorze dwuplanowym
+#9 we're hiring! ?
+#10 na starcie 'everything starts with an idea'
+#11 "go west"
