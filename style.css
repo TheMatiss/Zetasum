@@ -148,7 +148,7 @@ h3{
 	width: auto;
 	margin-left:9%;
 	padding: 16px;
-	color: #666;
+	color: #555;
 	font-weight: bold;
 	font-size: 3em;
 	transition: 2s ease;
@@ -229,16 +229,14 @@ h3{
     justify-content: space-around;
     align-items: center;
 	flex-direction:row;
-	position: relative;
 }
 
 .statistics__content {
-	position:absolute;
 	top:0;
 	transform: translateY(25%);
 }
 ul {
-	position:relative;
+
 	list-style-type: none;
 	margin:0;
 	max-width:1600px;
@@ -247,6 +245,13 @@ ul {
     align-items: center;
 	text-align:center;
 	flex-direction:row;
+}
+
+.overlay {
+	position:absolute;
+	width:100%;
+	min-height:25vh;
+	background-color:rgba(0,0,0,0.5);
 }
 
 .statistics__list {
@@ -275,7 +280,7 @@ ul {
 	font-size:1.5em;
 	text-align:center;
 	vertical-align:text-bottom;
-	padding: 20px 5px 5px 5px;
+	padding: 30px 5px 5px 5px;
 }
 
 .expertise {

@@ -9,4 +9,5 @@ Szare loga, przy hoverze wyœwietla siê kolorowe logo, przy aktualnie klikniêtym 
 #8 ogarn¹æ jakieœ ozdobniki, w kolorze dwuplanowym
 #9 we're hiring! ?
 #10 na starcie 'everything starts with an idea'
-#11 "go west"
+#11 szukaæ zleceñ na zachodzie
+#12 "slideshow after click reset timer"
