@@ -189,7 +189,7 @@ h3{
 	font-weight:bold;
 	display: flex;
 	justify-content:space-around;
-	width:157px;
+	width:159px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -219,9 +219,6 @@ h3{
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
-	-webkit-filter: contrast(85%) brightness(50%) saturate(80%) sepia(25%) grayscale(25%);
-	background-attachment: fixed;
-	filter: contrast(85%) brightness(50%) saturate(80%) sepia(25%) grayscale(25%);
 }
 
 
@@ -241,23 +238,20 @@ h3{
 	transform: translateY(25%);
 }
 ul {
+	position:relative;
 	list-style-type: none;
 	margin:0;
 	max-width:1600px;
 	display: flex;
     justify-content: space-around;
     align-items: center;
+	text-align:center;
 	flex-direction:row;
-	-webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 0;
 }
 
 .statistics__list {
 	margin:40px;
-	max-width:230px;
+	max-width:200px;
 	display: flex;
 	flex-wrap:wrap;
 	flex-direction:row;
