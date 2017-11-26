@@ -7,7 +7,6 @@ html
 
 body {
 	margin: 0;
-	height: 100%;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 16px;
     line-height: 24px;
@@ -19,6 +18,12 @@ a{
 
 a:focus{
 	outline-color:black;
+}
+
+* {
+
+    box-sizing: border-box;
+
 }
 
 /* Header */
