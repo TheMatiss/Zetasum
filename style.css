@@ -524,7 +524,11 @@ ul {
 .crew__column {
 	float:left;
 	width:25%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 	height:65vh;
+	max-height:85vh;
 	z-index:250;
 	background-color:white;
 	
@@ -556,8 +560,8 @@ ul {
 	color:#1e656d;
 	text-align:center;
 	line-height:1em;
-	padding:10px 10px 3px 10px;
-	margin:auto;
+	padding:10px;
+	margin:7.5% 0px 0px 0px;
 }
 
 .crew__occupation {
@@ -565,16 +569,16 @@ ul {
 	color:black;
 	text-align:center;
 	line-height:1em;
-	margin:auto;
+	
 }
 
 .crew__social{
-	width:60%;
+	width:70%;
 	display:flex;
 	justify-content:space-around;
-	margin:15px auto 5px auto;
 	padding:5px;
 	height:auto;
+	margin:15px auto 7.5% auto;
 }
 
 .crew__socialicon{
@@ -585,7 +589,7 @@ ul {
 
 a:hover{
 	color: #1e656d;
-	transition-duration:0.5s;
+	transition-duration:0.4s;
 }
 
 
@@ -648,4 +652,17 @@ a:hover{
 	.expertise__imageleft {
 		max-width:90%;
 	}
+	
+}
+
+@media (max-height:830px){
+.crew__name{
+		margin:auto;
+		padding:0px;
+	}
+	
+	.crew__social{
+		margin:auto;
+	}
+	
 }
