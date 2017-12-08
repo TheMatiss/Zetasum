@@ -472,11 +472,143 @@ ul {
 }
 
 .crew {
+	z-index:250;
 	height:100vh;
-	width:100%;
+	max-width:100%;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	background: url(images/8.jpg) no-repeat center / cover fixed;
+	vertical-align:baseline;
+	background-size: cover;
+	-moz-background-size: cover;
+	margin-top:15vh;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	position:relative;
 }
 
-@media (max-width:990px){
+.overlay2{
+	position:absolute;
+	min-width:100%;
+	min-height:100vh;
+	z-index:50;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.crew__header {
+	position:relative;
+	font-weight:bold;
+	font-size:3em;
+	line-height:1em;
+	color:white;
+	z-index:50;
+	margin:  auto;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+ 
+.crew__wrapper{
+	max-width:1600px;
+	height:80%;
+	position:relative;
+	z-index:250;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:row;
+}
+ 
+.crew__column {
+	float:left;
+	width:25%;
+	height:65vh;
+	z-index:250;
+	background-color:white;
+	
+
+}
+
+
+.crew__image {
+	width:100%;
+	height:70%;
+	position:relative;
+	border-top: 5px solid #1e656d;
+	border-bottom: 30px solid #1e656d;
+
+}
+
+.crew__imagedetails {
+	width:100%;
+	height:100%;
+	display:block;
+	object-fit: cover;
+	vertical-align:middle;
+	position:relative;
+}
+
+.crew__name {
+	font-weight:bold;
+	font-size:2em;
+	color:#1e656d;
+	text-align:center;
+	line-height:1em;
+	padding:10px 10px 3px 10px;
+	margin:auto;
+}
+
+.crew__occupation {
+	font-size:1.5em;
+	color:black;
+	text-align:center;
+	line-height:1em;
+	margin:auto;
+}
+
+.crew__social{
+	width:60%;
+	display:flex;
+	justify-content:space-around;
+	margin:15px auto 5px auto;
+	padding:5px;
+	height:auto;
+}
+
+.crew__socialicon{
+	
+	color:black;
+}
+
+
+a:hover{
+	color: #1e656d;
+	transition-duration:0.5s;
+}
+
+
+.gallery {
+	width:100%;
+	min-height:100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:930px){
 	.expertise__left {
 		flex-direction:column;
 		align-items:center;
@@ -497,6 +629,7 @@ ul {
 	
 	.expertise__headerleft {
 		text-align:center;
+		margin:15px 0px 25px 0px;
 	}
 	
 	.expertise__descriptionright{
@@ -505,6 +638,7 @@ ul {
 	
 	.expertise__headerright{
 		text-align:center;
+		margin:15px 0px 25px 0px;
 	}
 	
 	.expertise__textleft{
@@ -514,3 +648,4 @@ ul {
 	.expertise__imageleft {
 		max-width:90%;
 	}
+}
