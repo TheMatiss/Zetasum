@@ -607,6 +607,7 @@ ul {
 	display:flex;
 	flex-wrap:wrap;
 	float:left;
+	outline-color: #1e656d;
 }
 
 .gallery__img {
@@ -618,6 +619,8 @@ ul {
 	display:block;
 	object-fit: cover;
 	vertical-align:middle;
+	outline:1;
+	outline-color: #1e656d;
 }
 
 .gallery__overlay {
@@ -650,12 +653,119 @@ ul {
 	-ms-transform: translate(-50%, -50%);
 }
 
+.form{
+	width:100%;
+	height:100vh;
+}
 
+.quote__all{
+	width:100%;
+	min-height:610px;
+    margin-top:15vh;
+    position: relative;
+	box-sizing: border-box;
+    display: block;
+}
 
+.quote__header{
+	font-weight:bold;
+	line-height:1em;
+	text-align:center;
+	font-size:3.5em;
+	display: flex;
+	color:#1e656d;
+    justify-content: space-around;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+	
+.quote--active{
+    opacity: 1!important;
+    transition: 0.3s;
+}
 
+.quote__all:before{
+	clear:both;
+}
 
+.quote {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    opacity:0;
+    transition: 0.3s;
+}
 
+.wrapper {
+    max-width: 1200px;
+	height:inherit;
+    margin: 7.5vh 0 0 0;
+}
 
+.quote__button--active {
+    transform: scale(1.4);
+}
+
+.quote__buttons {
+    width: 100%;
+	height:inherit;
+    position:absolute;
+	bottom:0;
+	padding:35px 20px 37px 20px;
+	border-top: 2px solid #e1e1e1;
+	border-bottom: 2px solid #e1e1e1;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.quote__button {
+    width: 15%;
+	height:150px;
+    padding:0;
+	margin:0;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    transition: .3s;
+	outline-color: #1e656d;
+	cursor:pointer;
+}
+
+.quote__button-img{
+	width:100%;
+	height:150px;
+}
+
+.quote__text {
+	text-align:left;
+	font-size:1.2em;
+}
+.quote__name{
+	text-align:left;
+	padding-top:10px;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+	font-size:1.4em;
+}
+.quote__occupation{
+	text-align:left;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 40px;
+	font-size:1.1em;
+	color:#1e656d;
+	font-weight:bold;
+    -webkit-margin-end: 40px;
+}
 @media (max-width:1300px){
 
 .gallery__wrap{
