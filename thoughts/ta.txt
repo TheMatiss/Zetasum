@@ -11,5 +11,5 @@ Szare loga, przy hoverze wyœwietla siê kolorowe logo, przy aktualnie klikniêtym 
 #10 na starcie 'everything starts with an idea'+
 #11 szukaæ zleceñ na zachodzie
 #12 "slideshow after click reset timer"+
-#13 Form - 28.01.2018 Footer - ?
+#13 Form - 28.01.2018 Footer - 04.03
 Responsive etc - ? All - ?
