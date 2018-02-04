@@ -780,7 +780,7 @@ ul {
 	background-size: cover;
 	-moz-background-size: cover;
 	margin-top:15vh;
-	margin-bottom:100vh;
+	margin-bottom:15vh;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	position:relative;
@@ -855,6 +855,84 @@ ul {
 	color:white;
 	background-color:#1e656d;
 	transition-duration:0.5s;
+}
+
+footer {
+	border-top:1px solid #DDD;
+	height:25vh;
+	display:flex;
+	justify-content:center;
+	width:100%;
+	align-content:flex-end;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:1.2em;
+}
+
+.footer__space{
+	position:relative;
+
+}
+
+.footer__place {
+	margin-top:10%;
+	height:20%;
+}
+
+.footer__follow{
+	padding:25px 0px 15px 0px;
+	display:flex;
+	height:20%;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:row;
+}
+
+.footer__placepstyle {
+	padding: 3px 0px 0px 0px;
+	margin:0;
+	-webkit-margin-before:0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	width:auto;
+
+}
+
+
+
+.footer__icons {
+	width:35px;
+	float:left;
+	padding: 0px 5px 0px 0px;
+}
+
+.footer__logo{
+	width:30px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+.footer__rights {
+	height:40%;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-content:flex-end;
+	flex-direction:row;
+}
+
+.footer__rightsstyle{
+	padding: 3px 0px 0px 0px;
+	margin:0;
+	-webkit-margin-before:0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	width:auto;
+	position:relative;
+	display:flex;
+	align-items:flex-end;
+	padding: 10px 0px 20px 0px;
 }
 
 @media (max-width:1300px){
