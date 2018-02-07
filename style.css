@@ -1144,6 +1144,18 @@ footer {
 		font-size:2.2em;
 	}
 	
+	.quote__header {
+		font-size:2.8em;
+	}
+	
+	.crew__header {
+		font-size:2.8em;
+	}
+	
+	.form__header {
+		font-size:2.2em;
+	}
+	
 	.crew__column{
 		width:30%;
 
