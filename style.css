@@ -75,6 +75,10 @@ h3{
     padding: 0px;
     margin: 0px;
 }
+
+.backgroundnone {
+	display: none;
+}
 	
 /* Slideshow */
 #slide {
@@ -272,7 +276,7 @@ h3{
 
 .statistics__wrapper {
 	max-width:1900px;
-	padding-top:10vh;
+	padding-top:7.5vh;
 	z-index:250;
     margin:auto;
 }
