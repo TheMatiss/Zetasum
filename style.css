@@ -468,9 +468,14 @@ ul {
 	
 }
 
+fieldset {
+  display: table-cell;
+}
+
 .crew {
 	z-index:250;
 	height:100vh;
+	width:100%;
 	max-width:100%;
 	margin:auto;
 	display:flex;
@@ -503,12 +508,13 @@ ul {
 	line-height:1em;
 	color:white;
 	z-index:50;
-	margin:  auto;
+	margin: 0px;
 	-webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
 }
  
 .crew__wrapper{
+	min-width:80%;
 	max-width:1600px;
 	height:80%;
 	position:relative;
@@ -766,6 +772,7 @@ ul {
 
 .form {
 	z-index:250;
+	-webkit-backface-visibility: hidden;    
 	height:60vh;
 	min-height:400px;
 	max-width:100%;
